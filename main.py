@@ -35,13 +35,19 @@ while game_on:
     screen.update()
     time.sleep(0.1)
     snake.move()
-    if snake.head.distance(food)<15:
+    if snake.head.distance(food)<30:
        food.refresh()
        score.increase_score()
+       snake.extend()
     if x_pos>=280 or x_pos<= -280 or y_pos>=280 or y_pos<= -280:
         game_on=False
         score.game_over()
 
+    for segment in snake.snake_tail[1:]:
+
+       if snake.head.distance(segment)<15:
+            game_on=False
+            score.game_over()
 
 
 
