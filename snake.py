@@ -16,7 +16,7 @@ class Snake:
 
     def create(self):
         # CREATING SNAKE SEGMENTS
-        start_positions = [(0, 0), (-20, 0), (-40, 0),(-60,0),(-80,0),(-100,0),(-120,0),(-140,0),(-160,0),(-180,0),(-200,0),(-210,0),(-220,0),]
+        start_positions = [(0, 0), (-20, 0), (-40, 0)]
         for position in start_positions:
            self.add_segment(position)
 
