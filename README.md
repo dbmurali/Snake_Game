@@ -1,21 +1,24 @@
-# Snake Game
+# 🐍 Snake Game 🎮
 
 This is a classic Snake game built using Python and the `turtle` graphics library. In this game, the player controls a snake that grows longer as it eats food. The objective is to eat as much food as possible without running into the walls or the snake’s own tail.
 
 ## Features:
-- **Snake Movement**: The snake moves in four directions: up, down, left, and right, using keyboard arrow keys.
+- **Snake Movement**: The snake moves in four directions: up ⬆️, down ⬇️, left ⬅️, and right 
+                      ➡️, using keyboard arrow keys.
+
 - **Food Collection**: The snake eats food and grows longer each time it consumes food.
-- **Score Display**: The score increases as the snake eats food, and the score is displayed at the top of the screen.
+- **Score Display**: The score increases as the snake eats food, and the score is displayed at 
+                     the top of the screen.
 - **Game Over**: The game ends when the snake runs into the wall or its own tail.
-- **Restart Option**: The game can be played again after it ends by simply restarting the program.
+- **Restart Option**: The game can be played again after it ends by simply restarting the                             program.
 
 
 ## Game Instructions:
-- Left Arrow Key: Move the snake left.
-- Right Arrow Key: Move the snake right.
-- Up Arrow Key: Move the snake up.
-- Down Arrow Key: Move the snake down.
-- The objective of the game is to eat the food (represented by a square) to grow the snake and increase your score.
+- ⬅️ Left Arrow Key: Move the snake left.
+- ➡️ Right Arrow Key: Move the snake right.
+- ⬆️ Up Arrow Key: Move the snake up.
+- ⬇️ Down Arrow Key: Move the snake down.
+- The objective of the game is to eat the food (represented by a square) to grow the snake and    increase your score.
 - The game ends if the snake hits the wall or runs into itself.
 
 ### Code Breakdown:  
